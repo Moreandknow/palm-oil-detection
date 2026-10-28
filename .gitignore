@@ -1,0 +1,73 @@
+# ==========================================
+# 1. Python & Virtual Environments
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.ipynb_checkpoints/
+
+# Environment folders
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# 2. Datasets & Heavy Data Files
+# ==========================================
+data/raw/
+*.zip
+*.tar.gz
+*.rar
+*.7z
+roboflow/
+
+# ==========================================
+# 3. Model Weights, Checkpoints & Exports
+# ==========================================
+*.pth
+*.pt
+*.onnx
+*.engine
+*.weights
+*.ckpt
+*.bin
+
+# Abaikan semua isi folder weights, kecuali file instruksi/README
+weights/*
+!weights/README.md
+!weights/.gitkeep
+
+# ==========================================
+# 4. Training Logs & External Tracking
+# ==========================================
+runs/
+wandb/
+*.log
+tensorboard/
+.kaggle/
+
+# ==========================================
+# 5. IDE, Editors & OS System Files
+# ==========================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+
+# OS Specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

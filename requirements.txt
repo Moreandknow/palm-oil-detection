@@ -1,0 +1,21 @@
+# Core Frameworks & Computer Vision
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.3.0
+opencv-python>=4.8.0
+
+# Data Analysis & Handling
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.2.0
+pycocotools>=2.0.6
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+Pillow>=9.5.0
+
+# Jupyter Notebook & Development
+jupyterlab>=4.0.0
+notebook>=7.0.0
+tqdm>=4.65.0

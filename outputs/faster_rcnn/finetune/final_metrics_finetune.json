@@ -1,0 +1,15 @@
+{
+  "selected_model": "fine-tuned",
+  "best_validation_metrics": {
+    "map": 0.7145951102908142,
+    "map_50": 0.9476922189876478,
+    "map_75": 0.8885877402665177,
+    "num_predictions": 5363
+  },
+  "test_metrics": {
+    "map": 0.7187255730706141,
+    "map_50": 0.9562141219578479,
+    "map_75": 0.8912628712025507,
+    "num_predictions": 2722
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "dataset_dir": "/content/palm-oil-3",
+  "created_at_utc": "2026-10-25T15:30:01.158627+00:00",
+  "image_standard": "640x640 (validated by image_audit.csv)",
+  "yolo_classes": {
+    "0": "kurang masak",
+    "1": "masak",
+    "2": "mentah",
+    "3": "terlalu masak"
+  },
+  "faster_rcnn_categories": {
+    "1": "kurang masak",
+    "2": "masak",
+    "3": "mentah",
+    "4": "terlalu masak"
+  },
+  "splits": {
+    "train": "train",
+    "val": "valid",
+    "test": "test"
+  },
+  "notes": [
+    "YOLO label IDs are 0-based. COCO/Faster R-CNN IDs are 1-based; 0 is background.",
+    "Polygon labels are converted to detection bounding boxes for both models.",
+    "No augmentation, resize, or source-file deletion is performed by this notebook."
+  ]
+}

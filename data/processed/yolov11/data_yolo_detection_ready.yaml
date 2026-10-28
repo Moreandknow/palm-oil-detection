@@ -1,0 +1,10 @@
+path: /content/palm_oil_model_comparison/yolo_detection_ready
+train: train/images
+val: val/images
+test: test/images
+nc: 4
+names:
+- kurang masak
+- masak
+- mentah
+- terlalu masak

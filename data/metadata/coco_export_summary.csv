@@ -1,0 +1,4 @@
+split,coco_json,images,annotations
+train,/content/palm_oil_model_comparison/preprocessing_output/instances_train.json,5893,9266
+val,/content/palm_oil_model_comparison/preprocessing_output/instances_val.json,1676,2654
+test,/content/palm_oil_model_comparison/preprocessing_output/instances_test.json,827,1355

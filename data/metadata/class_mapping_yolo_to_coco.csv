@@ -1,0 +1,5 @@
+yolo_id,class_name,coco_category_id
+0,kurang masak,1
+1,masak,2
+2,mentah,3
+3,terlalu masak,4
